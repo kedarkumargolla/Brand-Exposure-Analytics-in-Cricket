@@ -88,7 +88,7 @@ export const findBestFrame = async (csvData: string, brandName: string, apiKey: 
     `;
 
     const response = await ai.models.generateContent({
-        model: 'gemini-2.5-pro',
+        model: 'gemini-2.5-flash-lite',
         contents: prompt,
         config: {
             responseMimeType: 'application/json',

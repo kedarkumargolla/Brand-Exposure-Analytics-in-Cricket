@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { DownloadIcon, ExternalLinkIcon } from './icons';
 
@@ -14,7 +13,7 @@ const Tab1BrandAnalytics: React.FC = () => {
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
         <a 
-          href="Examples_images_zip.zip" 
+          href="/Examples_images_zip.zip" 
           download
           className="flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105"
         >
